@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	
 }
 
 /*---------Navigation------*/
@@ -14,7 +15,7 @@
 .navbar-brand img 
 {
 	height:60px;
-	padding-left: 30px;
+	padding-left: 98px;
 }
 .navbar-nav li 
 {
@@ -25,11 +26,12 @@
 {
 	float: right;
 	text-align: left;
+	color: #28a745;
 
 }
 
 #nav-bar ul li a:hover{
-	color: #007bff!important;
+	color: #28a745!important;
 }
 .navbar
 {
@@ -133,6 +135,7 @@
 	border-radius: 50%;
 
 
+
 }
 #services p{
 	font-size: 14px;
@@ -141,7 +144,7 @@
 
 }
 .services .col-md-4:hover{
-	background:#007bff;
+	background:#28a745;
 	cursor:pointer;
 	transition: 0.7s;
 }
@@ -154,7 +157,7 @@
 h1::after
 {
 	content: '';
-	background: #007bff;
+	background: #28a745;
 	display: block;
 	height: 3px;
 	width: 170px;
@@ -183,7 +186,7 @@ h1::after
 }
 .price-head
 {
-	background-color: #2196f3;
+	background-color: #28a745;
 	display:inline;
 	float: left;
 	padding: 10px 5px;
@@ -247,7 +250,7 @@ ul li:last-child
 }
 .buy-btn
 {
-	background-color: #2196f3;
+	background-color: #28a745;
 	border-radius: 3px;
 	display: inline-block;
 	font-size: 18px;
@@ -286,7 +289,7 @@ a
 
 
 /*------------shop-----*/
-#shop h1{
+#contact h1{
 	text-align: center;
 	color: #555 !important;
 	padding-bottom: 10px;
@@ -294,34 +297,121 @@ a
 h1::after
 {
 	content: '';
-	background: #007bff;
+	background: #28a745;
 	display: block;
 	height: 3px;
 	width: 170px;
 	margin: 20px auto 5px;
 }
+/*------------contact---------*/
+#contact
+{
+	background:#efefef;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:#777;
 
+}
+.contact-form
+{
+	padding: 15px;
+}
+.form-control
+{
+	border-radius: 0 !important;
+	border:  none !important;
+}
+::placeholder
+{
+	color: #999 !!important;
+
+}
+.follow
+{
+	background:#fff;
+	padding: 0px;
+	margin: 15px;
+}
 
 /*-------------footer-------*/
 #footer
 
 {
+background:#333;
+color: #fff;
 text-align: center;
-color: white;
+padding: 12px;
+
 font-size:0.85ems;
-background-color: black;
+
+}
+.social
+{
+	text-align: right;
+}
+.container 
+{
+	text-align:
 }
 .fa-facebook
 {
-	color: blue;
+	;
 }
 .fa-instagram
 {
-	color:purple;
+
 }
 .fa-whatsapp
 {
 	color:green;
 }
+
+
+.fa-heart-o
+{
+	margin: 3px;
+	color: red;
+}
+
+
+}
+.product-grid{
+margin: 10px;
+	display: inline;
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	transition: 0.5s;
+	border-image-width: 100%;
+
+}
+.product-grid:hover{
+	box-shadow: 0 20px 20px #333;
+}
+
+#shop
+{
+   
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#shop h1{
+	text-align: center;
+	color:black!important;
+	padding-bottom: 10px;
+}
+#shop h1::after 
+{
+	content: '';
+	background: black;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin:20px auto 5px;
+}
+.shop{
+	margin-top: 40px;
 
 }
